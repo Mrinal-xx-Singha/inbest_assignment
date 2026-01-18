@@ -17,7 +17,7 @@ const EmployeeTable = () => {
           <input
             type="text"
             placeholder="Search here"
-            className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg text-sm text-[#191D1D] focus:outline-none focus:border-blue-500"
+            className="w-full pl-10 pr-4 py-2 border border-gray-200 rounded-lg text-sm text-[#191D1D] "
           />
         </div>
       </div>
@@ -66,7 +66,7 @@ const EmployeeTable = () => {
                         e.target.style.display = "none";
                         e.target.parentNode.style.backgroundColor = "#165BAA";
                       }}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover rounded-full border-2 border-[#2DB8D2]"
                     />
                   </div>
                 </td>

@@ -3,7 +3,7 @@ import sidebarItems from "../constants/sidebar";
 
 const Sidebar = () => {
   return (
-    <div className="w-[326px] h-screen bg-white">
+    <div className="w-[326px] h-screen bg-white sticky top-0">
       {/* Logo Section */}
       <div className="flex flex-col items-center justify-center h-[95px] ">
         <div className="flex items-center gap-2 w-[222px] h-[67px]">

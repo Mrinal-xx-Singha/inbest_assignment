@@ -4,10 +4,10 @@ import "../../../utils/chartSetup";
 
 const PendingOnboarding = () => {
   const data = {
-    labels: ["Completed", "Pending"],
+    labels: ["Employee", "Employee"],
     datasets: [
       {
-        data: [6, 2.5],
+        data: [6, 4],
         backgroundColor: ["#0975AE", "#CDE0EA"],
         borderRadius: 8,
         barThickness: 64,

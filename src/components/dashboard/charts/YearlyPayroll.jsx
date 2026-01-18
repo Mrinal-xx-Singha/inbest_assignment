@@ -35,7 +35,7 @@ const YearlyPayroll = () => {
         borderColor: "#979797",
         borderWidth: 1.5,
         pointRadius: 0,
-        fill: false,
+        fill: true,
       },
     ],
   };
@@ -52,6 +52,10 @@ const YearlyPayroll = () => {
           label: (ctx) => `₹${ctx.parsed.y}K`,
         },
       },
+    },
+    interaction: {
+      mode: "index",
+      intersect: false,
     },
     scales: {
       x: {
@@ -92,7 +96,7 @@ const YearlyPayroll = () => {
       </div>
 
       {/* Inline Legend */}
-      <div className="  flex justify-center items-center gap-6 text-[12px] mb-3">
+      <div className="flex justify-center items-center gap-6 text-[12px]">
         <p className="text-[#039547] text-[20px]">+12.4% YoY</p>
         <div className="flex flex-col gap-1 border border-[#B0C2E3] rounded-lg  p-3">
           <p className="text-[#191D1D] border-l-[#1792D3] border-l-3 pl-2 border-l-rounded">

@@ -32,6 +32,10 @@ const TotalPayroll = () => {
         },
       },
     },
+    interaction: {
+      mode: "index",
+      intersect: false,
+    },
     scales: {
       x: {
         grid: {

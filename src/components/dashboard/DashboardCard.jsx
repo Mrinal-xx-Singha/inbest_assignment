@@ -12,7 +12,7 @@ const DashboardCard = ({
       className={`bg-white border border-gray-200 border-r-4 ${borderColor} rounded-xl p-5 flex flex-col`}
     >
       {/* Title */}
-      <h4 className="font-inter font-semibold text-[20px] text-[#191D1D] mb-4">
+      <h4 className="font-inter font-semibold text-[16px] text-[#191D1D] mb-4">
         {title}
       </h4>
 

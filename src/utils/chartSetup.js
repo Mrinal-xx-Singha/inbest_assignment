@@ -8,6 +8,7 @@ import {
   BarElement,
   PointElement,
   LineElement,
+  Filler,
 } from "chart.js";
 
 ChartJS.register(
@@ -19,4 +20,5 @@ ChartJS.register(
   BarElement,
   PointElement,
   LineElement,
+  Filler,
 );
