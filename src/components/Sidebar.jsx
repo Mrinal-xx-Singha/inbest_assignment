@@ -3,10 +3,10 @@ import sidebarItems from "../constants/sidebar";
 
 const Sidebar = () => {
   return (
-    <div className="w-[326px] h-screen border border-red-200 bg-white">
+    <div className="w-[326px] h-screen bg-white">
       {/* Logo Section */}
-      <div className="flex flex-col items-center justify-center h-[95px] border-b">
-        <div className="flex items-center gap-2">
+      <div className="flex flex-col items-center justify-center h-[95px] ">
+        <div className="flex items-center gap-2 w-[222px] h-[67px]">
           <img className="w-[63px] h-[50px]" src="logo.png" alt="logo" />
           <img
             className="w-[149px] h-[67px]"
@@ -18,7 +18,7 @@ const Sidebar = () => {
       </div>
 
       {/* Menu Items */}
-      <ul className="flex flex-col mt-4 px-4 gap-1">
+      <ul className="flex flex-col mt-4 px-4 gap-2">
         {sidebarItems.map((item) => (
           <li
             key={item.id}

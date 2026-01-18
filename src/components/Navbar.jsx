@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="w-full h-[64px] px-6 flex items-center justify-between bg-white border-b">
+    <header className="w-full h-[64px] px-6 flex items-center justify-between bg-white">
       {/* Left Section */}
       <div className="flex items-center gap-4">
         <img

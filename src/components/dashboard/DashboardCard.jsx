@@ -9,11 +9,10 @@ const DashboardCard = ({
 }) => {
   return (
     <div
-      className={`bg-white border border-gray-200 border-r-4 ${borderColor}
-                  rounded-xl p-5 flex flex-col`}
+      className={`bg-white border border-gray-200 border-r-4 ${borderColor} rounded-xl p-5 flex flex-col`}
     >
       {/* Title */}
-      <h4 className="font-inter font-semibold text-[14px] text-gray-600 mb-4">
+      <h4 className="font-inter font-semibold text-[20px] text-[#191D1D] mb-4">
         {title}
       </h4>
 
@@ -24,7 +23,7 @@ const DashboardCard = ({
           {Object.entries(data).map(([key, value]) => (
             <div key={key} className="flex justify-between text-[13px] gap-6">
               <div>
-                <p className="text-gray-500 font-inter font-normal ">
+                <p className="text-[#828687] font-inter font-normal ">
                   {key}-{value}
                 </p>
               </div>
@@ -35,7 +34,7 @@ const DashboardCard = ({
         {/* Right: Highlight Number */}
         <div className="ml-6">
           <p
-            className={`font-inter font-semibold text-[28px] ${textColor} pt-8`}
+            className={`font-inter font-semibold text-[38px] ${textColor} pt-8`}
           >
             {highlightValue}
           </p>
